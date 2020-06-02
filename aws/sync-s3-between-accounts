@@ -19,10 +19,10 @@ set -u;
 
 # Variables
 
-# S3_ORIGIN="s3://<origin-bucket-name>"
-# S3_DEST="s3://<dest-bucket-name>/"
-# ROLE_ARN="<origin-role-arn>"
-# DATA_FOLDER="./data"
+S3_ORIGIN="s3://<origin-bucket-name>"
+S3_DEST="s3://<dest-bucket-name>/"
+ROLE_ARN="<origin-role-arn>"
+DATA_FOLDER="./data"
 
 yum update -y
 yum install jq -y
